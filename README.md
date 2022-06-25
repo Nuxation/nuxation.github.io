@@ -25,7 +25,7 @@ Pour compiler les fichers blade
 
 ## Structure du repo
 
-Le site web compiler ce trouve dans le dossier docs
+Le site web compiler ce trouve dans le dossier docs (Nommée docs a cause de limitation de Github pages)
 Le reste du site contient le code qui permet de généré ces fichiers
  - template : Contient les fichier HTML utilisé par blade
  - assets : Contient les fichiers scss et js qui on besoin d'etre transformé avant d'etre utilisé dans publique.
