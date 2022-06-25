@@ -1,0 +1,9 @@
+nav {
+    display: flex;
+    background-color: $secondary;
+    padding: 1em;
+    margin-bottom: 2em;
+    .btn {
+        margin: .1em;
+    }
+}
