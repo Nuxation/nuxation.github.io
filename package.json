@@ -4,11 +4,14 @@
   "description": "Portfoliot de Quentin CHEVRIAUX",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npx sass --style compressed asset/scss:css",
+    "wcss": "npx sass --style compressed --watch asset/scss:css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "sass": "^1.53.0"
   }
 }
