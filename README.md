@@ -12,3 +12,20 @@ Si vous venez de télécharger se repo sur le git l'utilisation de la commande s
 ```
 
 Si vous n'avez pas node et npm veuillez vous reférée au [site officiel de node.js pour le téléchargé](https://nodejs.org/en/)
+## Commande npm
+Pour compiler les fichier SCSS
+```
+    npm run css
+```
+
+Pour compiler les fichers blade
+```
+    npm run blade
+```
+
+## Structure du repo
+
+Le site web compiler ce trouve dans le dossier public
+Le reste du site contient le code qui permet de généré ces fichiers
+ - template : Contient les fichier HTML utilisé par blade
+ - assets : Contient les fichiers scss et js qui on besoin d'etre transformé avant d'etre utilisé dans publique.
