@@ -1,24 +1,40 @@
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 1.5em;
-    background-color: $secondary;
-    padding: 1em;
-    margin-bottom: 2em;
-    .btn {
-        margin: .1em;
-        transition: all .6s ease 0s;
+div.nav-c {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
+nav {
+    background-color: $secondary;
+
+    &.subheader {
+        border-top: rgba(0, 0, 0, 0.5) solid 1px;
     }
-    span{
-        &:hover {
-            & .btn {
-                color: $primary;
-                background-color: $tertiary;
-                border-color: $quaternary;
-                box-shadow: 0px 15px 10px rgba(#000, 0.4);
-                transform: translateY(-5px);
+
+    div {
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 75vh;
+        column-gap: 1.5em;
+        padding: .35em;
+
+        .btn {
+            margin: .1em;
+            transition: all .6s ease 0s;
+        }
+
+        a {
+            &:hover {
+                & .btn {
+                    color: $primary;
+                    background-color: $tertiary;
+                    border-color: $quaternary;
+                    box-shadow: 0px 15px 10px rgba(#000, 0.4);
+                    transform: translateY(-5px);
+                }
             }
         }
     }
