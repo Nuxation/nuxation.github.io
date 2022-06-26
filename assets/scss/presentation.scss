@@ -1,0 +1,23 @@
+@import "bootstrap";
+
+#photo {
+    max-width: 100px;
+    border-radius: .5em;
+}
+
+span.btn-c {
+    .btn {
+        margin: .1em;
+        transition: all .6s ease 0s;
+    }
+
+    &:hover {
+        .btn-dl {
+            color: $primary;
+            background-color: $quaternary;
+            border-color: $quaternary;
+            box-shadow: 0px 15px 10px rgba(#000, 0.4);
+            transform: translateY(-5px);
+        }
+    }
+}

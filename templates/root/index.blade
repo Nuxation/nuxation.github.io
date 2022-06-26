@@ -1,6 +1,16 @@
 include "../base.blade"
 
+append css
+	link(rel="stylesheet" href="css/presentation.css")
+
 prepend body
-	h1 juste un test
-	p Ici on réhoriente vers les differente partie du site et on fait une presentation
-	a(href="./skills.html")= "le lien"
+	h1 Quentin CHEVRIAUX
+	img.img-fluid#photo(src="./ressources/images/photo.jpeg")
+	p Après un master MIAGE, formation alliant des compétences d'informatique et de management, je me suis orienté vers le développement informatique et ai renforcé mes compétences grâce à des ouvrages sur le développement et les méthodes qui y sont liés.
+
+	p Vous pouvez retrouver mon portfolio dans la barre de navigation situer en haut du site ainsi que mon Curriculum vitae et une lettre de motivation ci-dessous
+
+	span.btn-c
+		a(href="./ressources/documents/cv.pdf" target="_blank" class="btn btn-primary btn-dl")= "cv"
+	span.btn-c
+		a(href="./ressources/documents/lm.pdf" target="_blank" class="btn btn-primary btn-dl")= "lm"
