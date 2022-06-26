@@ -5,9 +5,17 @@
     border-radius: .5em;
 }
 
+p {
+    text-align:center;
+}
+
+.flex-c {
+    display: flex;
+    justify-content: center;
+}
 span.btn-c {
     .btn {
-        margin: .1em;
+        margin: 1em .5em;
         transition: all .6s ease 0s;
     }
 
