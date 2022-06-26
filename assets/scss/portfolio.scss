@@ -6,11 +6,15 @@ h2 {
 }
 
 li {
-    padding-top: 116px;
-    margin-top: -116px;
+    padding-top: 135px;
+    margin-top: -135px;
 }
 
 table {
+    & *{
+        text-align: left;
+    }
+
     a {
         color: $quaternary;
     }
