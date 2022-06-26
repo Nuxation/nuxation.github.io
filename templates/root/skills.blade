@@ -1,5 +1,49 @@
 include "../base.blade"
+append css
+	link(rel="stylesheet" href="css/portfolio.css")
+
+append subnav
+	nav.subheader
+		div
+			a(href="./portfolio.html")
+				span(class="btn btn-primary")= "Expériences"
+
+			a(href="#sommaire")
+				span(class="btn btn-primary")= "Compétence"
 
 prepend body
-	p un autre test pour une page plus eloigner dans l'archi
-	a(href="./index.html")= "abcdef"
+	h1 Mes compétence
+
+	h2#sommaire Sommaire
+	ol
+		li#conception Conception et développement de solution digital
+			ul
+				li
+					a(href="./portfolio.html#agglo")= "Agglomération du Saint Quentinois"
+				li
+					a(href="./portfolio.html#upjv")= "Projet universitaire JAVA/J2EE"
+		li#agile Participer à une démarche agile et innovante
+			ul
+				li
+					a(href="./portfolio.html#chu")= "Project applicatif pour le CHU de Rouen"
+		li#cicd Intégration et déploiement continu
+			ul
+				li
+					a(href="./portfolio.html#upjv")= "Projet universitaire JAVA/J2EE"
+				li
+					a(href="./portfolio.html#chu")= "Project applicatif pour le CHU de Rouen"
+				li
+					a(href="./portfolio.html#book")= "Lectures suplémentaire"
+		li#self Autonomie
+			ul
+				li
+					a(href="./portfolio.html#agglo")= "Agglomération du Saint Quentinois"
+		li#com Communication
+			ul
+				li
+					a(href="./portfolio.html#agglo")= "Agglomération du Saint Quentinois"
+		li#qual Qualité de code
+			ul
+				li
+					a(href="./portfolio.html#book")= "Lectures suplémentaire"
+

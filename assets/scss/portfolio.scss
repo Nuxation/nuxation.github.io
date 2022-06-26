@@ -1,0 +1,17 @@
+@import "bootstrap";
+
+h2 {
+    padding-top: 116px;
+    margin-top: calc(2em - 116px);
+}
+
+li {
+    padding-top: 116px;
+    margin-top: -116px;
+}
+
+table {
+    a {
+        color: $quaternary;
+    }
+}

@@ -3,10 +3,14 @@
 @import "header";
 
 .content {
-    margin: 3em 8em;
+    margin: 4em 25vw;
 }
 
 p {
     word-wrap: break-word;
 }
 
+.table {
+    border-radius: $border-radius;
+    overflow: hidden;
+}
