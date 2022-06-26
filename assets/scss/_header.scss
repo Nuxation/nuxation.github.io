@@ -10,23 +10,31 @@ nav {
 
     &.subheader {
         border-top: rgba(0, 0, 0, 0.5) solid 1px;
+
+        div {
+            column-gap: 3em;
+        }
     }
 
     div {
         margin: auto;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         max-width: 75vh;
-        column-gap: 1.5em;
-        padding: .35em;
+        column-gap: 8em;
+        padding: .6em;
 
         .btn {
             margin: .1em;
             transition: all .6s ease 0s;
+            width: 100%;
         }
 
         a {
+            display: flex;
+            justify-content: center;
+            width: 130px;
             &:hover {
                 & .btn {
                     color: $primary;
